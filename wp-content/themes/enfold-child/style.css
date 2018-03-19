@@ -480,15 +480,6 @@ body#top.post-template-default.single.single-post div#wrap_all div#main div.cont
 	position: relative;
 }
 
-#stay-connected #btn, #black-studio-tinymce-7 #btn, #black-studio-tinymce-7 .textwidget, #stay-connected .form-wrap, .page .hentry h1, .page .hentry h2, .page .hentry h3, .page .hentry h4, .single .entry-content h1, .single .entry-content h2, .single .entry-content h3, .single .entry-content h4, b, strong, a-bold, .page-template-default .entry-content > p:first-child, .single .entry-content > p:first-child {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
-}
-
-i, em {
-    font-family: "Apercu Italic", Calibri, sans-serif;
-    font-weight: normal;
-    font-style: italic;
-}
 
 .entry-content a, .comment-content a {
     color: #1972a6;
