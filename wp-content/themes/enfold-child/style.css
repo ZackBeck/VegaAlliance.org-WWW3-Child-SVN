@@ -1065,7 +1065,7 @@ body div .no_margin {
 }
 
 div#counter { 
-background: url(http://vegaalliance.org/wp-content/themes/VEGA/images/white-mesh-half-transp.png) repeat;
+background: url(http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/white-mesh-half-transp.png) repeat;
     background-color: rgba(0, 0, 0, 0);
 background-color: hsla(94,100%,30%,1.00);
 color: #000000;
@@ -1078,8 +1078,8 @@ white-space: nowrap;
 
 div#woo-wrap {
     position: relative;
-    background: url("http://vegaalliance.org/wp-content/themes/VEGA/images/mesh.png");
-    background-image: url("http://vegaalliance.org/wp-content/themes/VEGA/images/mesh.png"), url("http://vegaalliance.org/wp-content/themes/VEGA/images/woo-bg.jpg");
+    background: url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/mesh.png");
+    background-image: url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/mesh.png"), url("http://vegaalliance.org/wp-content/themes/VEGA/images/woo-bg.jpg");
     background-repeat: repeat, no-repeat;
     background-position: 0 0;
     background-size: auto, 100% 100%;
@@ -1145,7 +1145,7 @@ div.iconbox_content {
     text-transform: uppercase;
     padding: 0 13px;
     border-right: 1px solid #e6e6df;
-    background: url("http://vegaalliance.org/wp-content/themes/VEGA/images/main-nav-hover.gif") -100em -100em no-repeat;
+    background: url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/main-nav-hover.gif") -100em -100em no-repeat;
 }
 
 #top #header .av-main-nav > li > a {
@@ -1191,7 +1191,7 @@ nav.main_menu ul.noLightbox.social_bookmarks.icon_count_2 li.social_bookmarks_fa
 	padding-top: 3px;
 }
 
-#top #menu-item-search:hover > a,
+#top #menu-item-search:hover > a
  {
     color: #fff;
     background-color: transparent !important;
@@ -1208,7 +1208,7 @@ nav.main_menu ul.noLightbox.social_bookmarks.icon_count_2 li.social_bookmarks_fa
 
 #foo-help {
     position: relative;
-    background: #e6e6df url("http://vegaalliance.org/wp-content/themes/VEGA/images/help-us-big-bg.png") 0 0 no-repeat;
+    background: #e6e6df url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/help-us-big-bg.png") 0 0 no-repeat;
     background-size: 100% 100%;
     padding: 5rem 0;
     text-align: center;
@@ -1243,7 +1243,7 @@ nav.main_menu ul.noLightbox.social_bookmarks.icon_count_2 li.social_bookmarks_fa
 }
 
 #foo-help #donate li {
-    background: url("http://vegaalliance.org/wp-content/themes/VEGA/images/donate-bg.png") 50% 50% no-repeat;
+    background: url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/donate-bg.png") 50% 50% no-repeat;
 }
 
 #foo-help .help-us li {
@@ -1293,7 +1293,7 @@ nav.main_menu ul.noLightbox.social_bookmarks.icon_count_2 li.social_bookmarks_fa
     font-size: 1.313rem;
     text-transform: uppercase;
     padding: 34px 0 8px;
-    background: url("http://vegaalliance.org/wp-content/themes/VEGA/images/help-us-line-bg.gif") 50% 100% no-repeat;
+    background: url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/help-us-line-bg.gif") 50% 100% no-repeat;
     margin-bottom: 5px;
 	color: #fff !important;
 }
@@ -1308,11 +1308,11 @@ nav.main_menu ul.noLightbox.social_bookmarks.icon_count_2 li.social_bookmarks_fa
 }
 
 #foo-help #volunteer li {
-    background: url("http://vegaalliance.org/wp-content/themes/VEGA/images/volunteer-bg.png") 50% 50% no-repeat;
+    background: url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/volunteer-bg.png") 50% 50% no-repeat;
 }
 
 #foo-help #bap li {
-    background: url("http://vegaalliance.org/wp-content/themes/VEGA/images/bap-bg.png") 50% 50% no-repeat;
+    background: url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/bap-bg.png") 50% 50% no-repeat;
 }
 
 #foo-help .help-us li:last-child {
@@ -1330,7 +1330,7 @@ nav.main_menu ul.noLightbox.social_bookmarks.icon_count_2 li.social_bookmarks_fa
     width: 295px;
     height: 225px;
     padding-top: 22px;
-    background: url("http://vegaalliance.org/wp-content/themes/VEGA/images/foo-share-bg.png") 50% 0 no-repeat;
+    background: url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/foo-share-bg.png") 50% 0 no-repeat;
     float: left;
 }
 
@@ -1342,7 +1342,7 @@ nav.main_menu ul.noLightbox.social_bookmarks.icon_count_2 li.social_bookmarks_fa
     padding: 3.125rem 0 2rem;
     background-color: #fff;
     position: relative;
-    background-image: url("http://vegaalliance.org/wp-content/themes/VEGA/images/membership-bg.png"), url("http://vegaalliance.org/wp-content/themes/VEGA/images/membership-bg.png");
+    background-image: url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/membership-bg.png"), url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/membership-bg.png");
     background-repeat: repeat-x;
     background-position: 0 0, 0 100%;
     background-size: auto;
