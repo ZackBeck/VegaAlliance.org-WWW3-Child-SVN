@@ -11,7 +11,6 @@ Version: 4.2.4.1519331759
 */
 
 
-/* ------------------- Custom - MA-Theme Edits ------------------------*/
 
 /* Oswald Google Font */
 @import url('https://fonts.googleapis.com/css?family=Oswald:700');
@@ -30,7 +29,7 @@ Version: 4.2.4.1519331759
 .main_color .tabcontainer .tab {
 	color: #ffffff;
 	width: 100%;
-	background: url("http://vegaalliance.org/wp-content/themes/VEGA/css/../images/tabs-bg.png") 0 0 repeat-x #68bd45;
+	background: url("/wp-content/themes/enfold-child/_custom/vega-themefiles/tabs-bg.png") 0 0 repeat-x #68bd45;
 	border-radius: 5px;
 	box-shadow: 0px 2px 2px rgba(0,0,0,.44);
 	border: none;
@@ -49,13 +48,13 @@ Version: 4.2.4.1519331759
 	right: 0;
 	width: 100%;
 	height: 17px;
-	background: url("http://vegaalliance.org/wp-content/themes/VEGA/css/../images/tabs-ellipse.png") center top / cover;
+	background: url("/wp-content/themes/enfold-child/_custom/vega-themefiles/tabs-ellipse.png") center top / cover;
 	z-index: -1;
 	border-radius: 5px;
 }
 
 div .main_color .tabcontainer .active_tab {
-	background: url("http://vegaalliance.org/wp-content/themes/VEGA/css/../images/tabs-bg.png") 0 -40px repeat-x #e6e6df;
+	background: url("/wp-content/themes/enfold-child/_custom/vega-themefiles/tabs-bg.png") 0 -40px repeat-x #e6e6df;
 }
 
 div .main_color .tabcontainer .active_tab:after {
@@ -368,30 +367,11 @@ div .main_color .tabcontainer .active_tab_content {
 	}
 }
 
-/* ------------------- DRU's Adds ------------------------*/
-
-html, button, input, select, textarea {
-	font-family: "Apercu Regular", Calibri, sans-serif;
-	font-weight: normal;
-	font-style: normal;
-}
-
-body {
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
-	color: #636466;
-	line-height: 1.2;
-}
-
 .content {
     border-right-style: none;
 }
 
-.entry-content {
-    font-size: 1.063rem;
-    line-height: 1.5;
-    padding: 20px 50px 20px 50px;
-}
-.fullsize .content .entry-content-wrapper {
+fullsize .content .entry-content-wrapper {
     padding-bottom: 25px;
 }
 
@@ -468,6 +448,23 @@ p {
 .main_color blockquote {
     border-color: transparent !important;
 }
+.entry-content blockquote {
+    margin: 25px -49px 25px -48px;
+}
+.entry-content blockquote small {
+	font-size: 18px;
+	font-weight: bold;
+}
+.entry-content blockquote::after {
+    bottom: 2.5rem;
+}
+.entry-content blockquote::before {
+    left: 70px;
+}
+.entry-content blockquote::after {
+    right: 70px;
+}
+
 
 body#top.page-template-default.page div#wrap_all div#main.all_colors div.container_wrap.container_wrap_first.main_color.sidebar_left div.container main.template-page.content.av-content-small.units,
 body#top.post-template-default.single.single-post div#wrap_all div#main div.container_wrap div.container.template-blog.template-single-blog main.content.units.av-content-small,
@@ -642,7 +639,6 @@ ol, ul {
    background-color: grey;
 }
 
-/*  .page-template-default #main, .blog #content, .single #main, .archive #main, .search #main, .page-template-success-stories-listing-php #main, .page-id-110 #main, .page-id-112 #main, .page-id-246 #main, .page-id-3493 #main */
 
 body#top.page-template-default.page div#wrap_all div#main.all_colors div.container_wrap_first,
 body#top.post-template-default.single.single-post div#wrap_all div#main div.container_wrap_first,
@@ -966,8 +962,8 @@ article.slide-entry {
 
 .avia-content-slider .slide-entry-excerpt {
     position: absolute !important;
-    right: 26px !important;
-    margin-top: -6px !important;
+    right: 20px !important;
+    margin-top: -10px !important;
     font-size: 14px !important;
 	z-index: 100 !important;
 }
@@ -1001,13 +997,14 @@ footer.entry-footer {
 article.slide-entry div.slide-content {
 	padding-top: 15px;
 	padding-left: 15px;
+	min-height: 100PX;
 }
 
 body#top.home div#wrap_all div#main.all_colors div#after_submenu_3 {
 	position: relative;
-	background: url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/mesh.png");
-	background-image: url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/mesh.png");
-	background-image: url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/mesh-clear.png"), url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/WhatsNew-bg.jpg");
+	background: url("/wp-content/themes/enfold-child/_custom/vega-themefiles/mesh.png");
+	background-image: url("/wp-content/themes/enfold-child/_custom/vega-themefiles/mesh.png");
+	background-image: url("/wp-content/themes/enfold-child/_custom/vega-themefiles/mesh-clear.png"), url("/wp-content/themes/enfold-child/_custom/vega-themefiles/WhatsNew-bg.jpg");
 	background-repeat: repeat, no-repeat;
 	background-position: 0 0;
 	background-size: auto, 100% 100%;
@@ -1043,7 +1040,8 @@ div.flex_column.av_one_third.flex_column_div.avia-builder-el-34,
 div.flex_column.av_one_third.flex_column_div.avia-builder-el-38,
 div.flex_column.av_one_third.flex_column_div.avia-builder-el-42 {
 	display: initial;	
-	}
+}
+	
 .avia-content-slider .slide-entry-wrap {
     width: 100%;
     float: left;
@@ -1065,7 +1063,7 @@ body div .no_margin {
 }
 
 div#counter { 
-background: url(http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/white-mesh-half-transp.png) repeat;
+background: url(/wp-content/themes/enfold-child/_custom/vega-themefiles/white-mesh-half-transp.png) repeat;
     background-color: rgba(0, 0, 0, 0);
 background-color: hsla(94,100%,30%,1.00);
 color: #000000;
@@ -1078,8 +1076,8 @@ white-space: nowrap;
 
 div#woo-wrap {
     position: relative;
-    background: url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/mesh.png");
-    background-image: url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/mesh.png"), url("http://vegaalliance.org/wp-content/themes/VEGA/images/woo-bg.jpg");
+    background: url("/wp-content/themes/enfold-child/_custom/vega-themefiles/mesh.png");
+    background-image: url("/wp-content/themes/enfold-child/_custom/vega-themefiles/mesh.png"), url("/wp-content/themes/enfold-child/_custom/vega-themefiles/woo-bg.jpg");
     background-repeat: repeat, no-repeat;
     background-position: 0 0;
     background-size: auto, 100% 100%;
@@ -1095,7 +1093,6 @@ div.flex_column.av_one_fifth.flex_column_div.av-zero-column-padding.first.avia-b
 	margin-top: 0px !important;
 	clear: none !important;
 }
-
 
 
 #top .avia-font-entypo-fontello, body .avia-font-entypo-fontello, html body [data-av_iconfont="entypo-fontello"]::before {
@@ -1145,7 +1142,7 @@ div.iconbox_content {
     text-transform: uppercase;
     padding: 0 13px;
     border-right: 1px solid #e6e6df;
-    background: url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/main-nav-hover.gif") -100em -100em no-repeat;
+    background: url("/wp-content/themes/enfold-child/_custom/vega-themefiles/main-nav-hover.gif") -100em -100em no-repeat;
 }
 
 #top #header .av-main-nav > li > a {
@@ -1208,7 +1205,7 @@ nav.main_menu ul.noLightbox.social_bookmarks.icon_count_2 li.social_bookmarks_fa
 
 #foo-help {
     position: relative;
-    background: #e6e6df url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/help-us-big-bg.png") 0 0 no-repeat;
+    background: #e6e6df url("/wp-content/themes/enfold-child/_custom/vega-themefiles/help-us-big-bg.png") 0 0 no-repeat;
     background-size: 100% 100%;
     padding: 5rem 0;
     text-align: center;
@@ -1243,7 +1240,7 @@ nav.main_menu ul.noLightbox.social_bookmarks.icon_count_2 li.social_bookmarks_fa
 }
 
 #foo-help #donate li {
-    background: url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/donate-bg.png") 50% 50% no-repeat;
+    background: url("/wp-content/themes/enfold-child/_custom/vega-themefiles/donate-bg.png") 50% 50% no-repeat;
 }
 
 #foo-help .help-us li {
@@ -1293,7 +1290,7 @@ nav.main_menu ul.noLightbox.social_bookmarks.icon_count_2 li.social_bookmarks_fa
     font-size: 1.313rem;
     text-transform: uppercase;
     padding: 34px 0 8px;
-    background: url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/help-us-line-bg.gif") 50% 100% no-repeat;
+    background: url("/wp-content/themes/enfold-child/_custom/vega-themefiles/help-us-line-bg.gif") 50% 100% no-repeat;
     margin-bottom: 5px;
 	color: #fff !important;
 }
@@ -1308,11 +1305,11 @@ nav.main_menu ul.noLightbox.social_bookmarks.icon_count_2 li.social_bookmarks_fa
 }
 
 #foo-help #volunteer li {
-    background: url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/volunteer-bg.png") 50% 50% no-repeat;
+    background: url("/wp-content/themes/enfold-child/_custom/vega-themefiles/volunteer-bg.png") 50% 50% no-repeat;
 }
 
 #foo-help #bap li {
-    background: url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/bap-bg.png") 50% 50% no-repeat;
+    background: url("/wp-content/themes/enfold-child/_custom/vega-themefiles/bap-bg.png") 50% 50% no-repeat;
 }
 
 #foo-help .help-us li:last-child {
@@ -1330,7 +1327,7 @@ nav.main_menu ul.noLightbox.social_bookmarks.icon_count_2 li.social_bookmarks_fa
     width: 295px;
     height: 225px;
     padding-top: 22px;
-    background: url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/foo-share-bg.png") 50% 0 no-repeat;
+    background: url("/wp-content/themes/enfold-child/_custom/vega-themefiles/foo-share-bg.png") 50% 0 no-repeat;
     float: left;
 }
 
@@ -1342,7 +1339,7 @@ nav.main_menu ul.noLightbox.social_bookmarks.icon_count_2 li.social_bookmarks_fa
     padding: 3.125rem 0 2rem;
     background-color: #fff;
     position: relative;
-    background-image: url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/membership-bg.png"), url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/membership-bg.png");
+    background-image: url("/wp-content/themes/enfold-child/_custom/vega-themefiles/membership-bg.png"), url("/wp-content/themes/enfold-child/_custom/vega-themefiles/membership-bg.png");
     background-repeat: repeat-x;
     background-position: 0 0, 0 100%;
     background-size: auto;
@@ -1369,16 +1366,6 @@ nav.main_menu ul.noLightbox.social_bookmarks.icon_count_2 li.social_bookmarks_fa
     width: 16px;
     padding: 5px 0;
 }
-.entry-content blockquote {
-    margin: 25px -49px 25px -48px;
-}
-.entry-content blockquote small {
-	font-size: 18px;
-	font-weight: bold;
-}
-.entry-content blockquote::after {
-    bottom: 2.5rem;
-}
 .avia-button.avia-size-x-large {
     padding: 10px 25px 10px 25px !important;
     vertical-align:middle;
@@ -1387,19 +1374,10 @@ nav.main_menu ul.noLightbox.social_bookmarks.icon_count_2 li.social_bookmarks_fa
 	font-size: 16px !important;
     line-height: 16px !important;
 }
-.entry-content blockquote::before {
-    left: 70px;
-}
-.entry-content blockquote::after {
-    right: 70px;
-}
 .entry-content .alignleft{
 	margin-right: 15px;
 }
-html body [data-av_iconfont="entypo-fontello"]::before {
-    font-size: 30px !important;
-    line-height: 30px !important;
-}
+
 .avia_iconbox_title {
 	position:relative;
 	bottom: 5px;
@@ -1409,9 +1387,6 @@ html body [data-av_iconfont="entypo-fontello"]::before {
 }
 .entry-content-wrapper .big-preview.single-big {
     padding: 0;
-}
-.single .av_textblock_section,
-.archives .av_textblock_section  {
 }
 
 body.single article.post-entry,
@@ -1452,6 +1427,8 @@ div.post-entry a {
 .content .entry-content-wrapper {
     padding-right: 0;
 }
+/* ------ START: WP Gallery Tweaks ------- */
+
 .slideshow-slide-caption {
 	width: 80% !important;
 	margin: 0 10% 5px 10% !important;
@@ -1466,6 +1443,9 @@ div.post-entry a {
     padding-top: 30px!important;
     padding-bottom: 56.25%!important;
 }
+
+/* ------ START: SAMPLE CountUp Counter Page ------- */
+
 .counter-wrapper div,
 .counter-wrapper div table,
 .counter-wrapper div tbody,
@@ -1476,7 +1456,6 @@ div.post-entry a {
 .counter-wrapper div.counter {
 	color:rgba(55,55,55,1.00) !important;
 }
-/* ------ START: SAMPLE CountUp Counter Page ------- */
 .page-id-13476 .entry-content {
     padding: 0;
 }
@@ -1486,16 +1465,6 @@ div.post-entry a {
 .page-id-13476 .counter-wrapper {
 	padding: 15px 50px 0 50px;
 }
-/*
-.page-id-13476 .counter-wrapper div.custom-padding{
-	margin: 0 20px 0 -20px;
-}
-*/
+
 /* ------ END: SAMPLE CountUp Counter Page ------- */
 
-@media only screen and (max-width: 1200px) {
-	.page-template-default article.post-entry {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-}
-}
