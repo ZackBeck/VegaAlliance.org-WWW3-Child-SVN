@@ -11,7 +11,6 @@ Version: 4.2.4.1519331759
 */
 
 
-
 /* Oswald Google Font */
 @import url('https://fonts.googleapis.com/css?family=Oswald:700');
 
@@ -402,15 +401,6 @@ fullsize .content .entry-content-wrapper {
     position: absolute;
 	font-weight: 700;
 }
-blockquote::before, blockquote::after, q::before, q::after {
-    content: "";
-    content: none;
-}
-::after, ::before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
 
 blockquote {
 	border-left: 5px solid #eee;
@@ -479,7 +469,6 @@ body#top.post-template-default.single.single-post div#wrap_all div#main div.cont
 	overflow: visible !important;
 	position: relative;
 }
-
 
 .entry-content a, .comment-content a {
     color: #1972a6;
@@ -1114,13 +1103,10 @@ nav.main_menu ul.noLightbox.social_bookmarks.icon_count_2 li.social_bookmarks_fa
 
 #top nav .social_bookmarks {
     position: relative;
-    margin-top: -14px;
+    margin-top: -17px;
     right: 0;
     clear: none;
     float: left;
-}
-#top #header .av-main-nav > li#menu-item-search > a {
-	padding-top: 3px;
 }
 
 #top #menu-item-search:hover > a
@@ -1283,6 +1269,8 @@ nav.main_menu ul.noLightbox.social_bookmarks.icon_count_2 li.social_bookmarks_fa
 #top .av-related-style-full .related_column {
     width: 48%;
 }
+/* ------ START: WP Gallery Tweaks ------- */
+
 .vega-matrix, .vega-matrix table {
 	margin: 0;
 	padding: 0;
@@ -1350,8 +1338,6 @@ div.post-entry a {
 	display:inline-block;
 	height:auto;
 }
-
-/* ------ START: WP Gallery Tweaks ------- */
 
 .slideshow-slide-caption {
 	width: 80% !important;
