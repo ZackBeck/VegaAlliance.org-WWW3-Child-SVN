@@ -10,6 +10,367 @@ Description: A superflexible and responsive Business Theme by Kriesi - Update no
 Version: 4.2.4.1519331759
 */
 
+
+/* ------------------- Custom - MA-Theme Edits ------------------------*/
+
+/* Oswald Google Font */
+@import url('https://fonts.googleapis.com/css?family=Oswald:700');
+
+.os-bold {
+	font-family: "Oswald", sans-serif;
+	font-weight: 700;
+}
+
+/* Tabs */
+.tab_titles {
+	display: flex;
+    justify-content: space-between;
+}
+
+.main_color .tabcontainer .tab {
+	color: #ffffff;
+	width: 100%;
+	background: url("http://vegaalliance.org/wp-content/themes/VEGA/css/../images/tabs-bg.png") 0 0 repeat-x #68bd45;
+	border-radius: 5px;
+	box-shadow: 0px 2px 2px rgba(0,0,0,.44);
+	border: none;
+	margin: 0 0 20px;
+	text-align: center;
+	font-size: 1.375rem;
+	font-weight: 700;
+	padding: 7px;
+}
+
+.main_color .tabcontainer .tab:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 17px;
+	background: url("http://vegaalliance.org/wp-content/themes/VEGA/css/../images/tabs-ellipse.png") center top / cover;
+	z-index: -1;
+	border-radius: 5px;
+}
+
+div .main_color .tabcontainer .active_tab {
+	background: url("http://vegaalliance.org/wp-content/themes/VEGA/css/../images/tabs-bg.png") 0 -40px repeat-x #e6e6df;
+}
+
+div .main_color .tabcontainer .active_tab:after {
+	content: '';
+	position: absolute;
+	top: initial;
+	bottom: 0px;
+	left: 50%;
+	margin-left: -19px;
+	width: 0;
+	height: 0;
+	border-left: 20px solid rgba(230, 230, 223, 0);
+	border-right: 20px solid rgba(230, 230, 223, 0);
+	border-top: 20px solid #e6e6df;
+	z-index: 1;
+}
+
+.main_color .tabcontainer .tab:nth-child(2) {
+	margin: 0 20px 20px;
+}
+
+.js_active .tab_titles .tab:first-child, .js_active .tab_titles .tab:last-child {
+	border-radius: 5px;
+}
+
+#top .main_color .tabcontainer .tab:hover {
+	color: #fff;
+}
+
+#top .main_color .tabcontainer .tab.active_tab {
+	color: #636466;
+	margin-bottom: 0;
+	border-radius: 5px 5px 0 0;
+	box-shadow: none;
+}
+
+/* Tab Content */
+
+.tab_content ul {
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+
+div .main_color .tabcontainer .active_tab_content {
+	background: #e6e6df ;
+	box-shadow: -3px 3px rgba(0,0,0,.44);
+	border: 0 none;
+	border-radius: 5px;
+}
+	
+/* First Tab */
+
+.block-left {
+	float: left;
+	margin: 16px 20px 0 0;
+}
+
+.block-left + h3 {
+	display: inline-block;
+}
+
+#wwd-link {
+	padding: 0;
+	margin: 0;
+	float: left;
+	width: 33.3%;
+}
+
+#wwd-link ul {
+	margin: 10px 4px;
+}
+
+#wwd-link ul:first-child {
+	margin-bottom: 45px;
+}
+
+#wwd-link li {
+	margin: 0;
+	padding: 6px 0;
+}
+
+#wwd-link li:before {
+    content: '\003E';
+    font: bold 16px 'web_symbolsregular';
+    color: #ef472a;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+#programs-regions-wrap {
+	padding: 0;
+	margin: 0;
+	float: left;;
+	width: 66.6%;
+	overflow: hidden;
+}
+
+#programs-regions-wrap .left {
+	float: left;
+	width: 75%;
+}
+
+#programs-region-wrap ul {
+	float: right;
+	padding: 85px 37px 0 0;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+}
+#programs-regions-wrap li {
+	margin-top: 32px;
+}
+
+#programs-regions-wrap li:first-child {
+	margin-top: 0;
+}
+
+#programs-regions-wrap li a {
+	display: block;
+	width: 97px;
+	height: 97px;
+	color: #fff;
+	background: #ef472a;
+	text-decoration: none;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	font-size: 14px;
+	font-size: 0.875rem;
+	line-height: 1;
+	text-align: center;
+}
+
+#programs-regions-wrap li a img {
+	display: block;
+	clear: both;
+	padding: 9px 0 5px;
+	margin: 0 auto;
+}
+
+#programs-regions-wrap .wpgmza_map {
+    margin: 15px 0 30px !important;
+}
+
+#programs-regions-wrap .more a {
+	color: #ef472a;
+	font-size: 1.125rem;
+}
+
+#programs-regions-wrap .more:after {
+    content: '\003E';
+    font: bold 18px 'web_symbolsregular';
+    color: #ef472a;
+    margin-left: 4px;
+}
+
+/* Second Tab */
+
+.one_third {
+	padding: 0 25px;
+	text-align: center;
+	font-size: 1.125rem;
+	width: 33.333%;
+	float: left;
+}
+
+.one_third:nth-child(2n) {
+	border-left: 1px solid #636466;
+	border-right: 1px solid #636466;
+	padding-bottom: 10px;
+}
+
+#numbers {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding-top: 15px;
+}
+
+#numbers li {
+	display: inline-block;
+	color: #1972a6;
+	vertical-align: middle;
+	margin: 0;
+}
+
+#numbers li:empty {
+	background: #626466;
+	width: 15%;
+	margin: 0 10px;
+	padding: 0;
+	height: 1px;
+	
+}
+
+.text60 {
+	font-size: 3.75rem;
+	margin-top: -15px;
+}
+
+.small-text {
+	padding: 0;
+	margin-bottom: 2.375rem;
+	text-transform: uppercase;
+	font-size: .75rem;
+	color: #626466;
+}
+
+#members-compete li:first-child {
+    float: left;
+    margin: 0 0 0 10px;
+}
+
+#members-compete li:last-child {
+    float: right;
+    margin: 0;
+}
+
+.mo-wrapper {
+	line-height: 1.3;
+	margin-bottom: 10px;
+}
+
+.member, .owner {
+    display: block;
+    line-height: 4.625rem;
+    font-size: 2.25rem;
+    text-transform: uppercase;
+}
+
+.mo-wrapper .member {
+    color: #1972a6;
+    border: 1px solid #1972a6;
+}
+
+.mo-wrapper .owner {
+    color: #fff;
+    background: #1972a6;
+}
+
+#top #wrap_all .all_colors .tab_content h3 {
+	width: auto;
+	margin-bottom: 10px;
+	font-size: 1.625rem;
+	font-weight: 700;
+	line-height: 1.2;
+	color: #626466;
+}
+
+#mechanism {
+    margin: 0;
+    background: #1972a6;
+    padding: 15px 20px;
+}
+
+#mechanism li {
+    color: #fff;
+    font-size: 0.875rem;
+    padding: 10px 0 0;
+}
+
+#mechanism li:first-child {
+    padding: 0 0 10px;
+    border-bottom: 1px solid #fff;
+}
+
+#mechanism li span.os-bold {
+		display: inline-block;
+		width: 31.5%;
+		margin-right: 15px;
+		text-transform: uppercase;
+		font-size: 1.438rem;
+}
+
+#mechanism li span.text14 {
+	  display: inline-block;
+    text-transform: none;
+    text-align: left;
+    width: 61.5%;
+}
+
+#mechanism li:first-child span.os-bold span {
+    display: inline;
+    font-size: 2.5rem;
+}
+
+#mechanism li span.os-bold span {
+	font-size: 1.125rem;
+}
+
+#top #wrap_all .all_colors #hp-wwd h3 {
+	margin: 0;
+	color: #1972a6;
+	font-size: 30px;
+	font-size: 1.875rem;
+	line-height: 1;
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+@media only screen and (max-width: 767px) {
+	.main_color .tabcontainer .tab {
+		border-radius: 0;
+	}
+}
+
+/* ------------------- DRU's Adds ------------------------*/
+
 html, button, input, select, textarea {
     font-family: "Apercu Regular", Calibri, sans-serif;
     font-weight: normal;
@@ -21,6 +382,7 @@ body {
 	color: #636466;
 	line-height: 1.2;
 }
+
 .content {
     border-right-style: none;
 }
