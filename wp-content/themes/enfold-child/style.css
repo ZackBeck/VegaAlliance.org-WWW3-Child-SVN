@@ -371,13 +371,13 @@ div .main_color .tabcontainer .active_tab_content {
 /* ------------------- DRU's Adds ------------------------*/
 
 html, button, input, select, textarea {
-    font-family: "Apercu Regular", Calibri, sans-serif;
-    font-weight: normal;
-    font-style: normal;
+	font-family: "Apercu Regular", Calibri, sans-serif;
+	font-weight: normal;
+	font-style: normal;
 }
 
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
 	color: #636466;
 	line-height: 1.2;
 }
@@ -1005,9 +1005,9 @@ article.slide-entry div.slide-content {
 
 body#top.home div#wrap_all div#main.all_colors div#after_submenu_3 {
 	position: relative;
-background: url("http://vegaalliance.org/wp-content/themes/VEGA/images/mesh.png");
-    background-image: url("http://vegaalliance.org/wp-content/themes/VEGA/images/mesh.png");
-	background-image: url("http://vegaalliance.org/wp-content/themes/VEGA/images/mesh-clear.png"), url("http://vegaalliance.org/wp-content/themes/VEGA/images/WhatsNew-bg.jpg");
+	background: url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/mesh.png");
+	background-image: url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/mesh.png");
+	background-image: url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/mesh-clear.png"), url("http://www3.vegaalliance.org/wp-content/themes/enfold-child/_custom/vega-themefiles/WhatsNew-bg.jpg");
 	background-repeat: repeat, no-repeat;
 	background-position: 0 0;
 	background-size: auto, 100% 100%;
