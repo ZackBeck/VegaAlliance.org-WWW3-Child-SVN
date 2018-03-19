@@ -474,7 +474,7 @@ body#top.post-template-default.single.single-post div#wrap_all div#main div.cont
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	background-color: #e6e6df;
-	margin: 0 auto 5.5rem auto;
+	margin: 0 auto 0 auto;
 	max-width: 888px;
 	overflow: visible !important;
 	position: relative;
@@ -1407,10 +1407,11 @@ div.post-entry a {
 .content, .sidebar {
 	padding-top: 0;
 	padding-bottom: 0;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
-body .aligncenter, .entry-content-wrapper a:hover .aligncenter {
-	margin: 0 auto;
+body div.stretch_full img.aligncenter,
+.entry-content-wrapper a:hover img.aligncenter {
+	margin: 0 -50px 0 50px !important;
 	padding: 0;
 }
