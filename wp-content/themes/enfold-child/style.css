@@ -92,7 +92,7 @@ div .main_color .tabcontainer .active_tab:after {
 	box-shadow: none;
 }
 
-/* Tab Content */
+/* Content */
 
 .tab_content ul {
 	padding: 0;
@@ -361,7 +361,6 @@ div .main_color .tabcontainer .active_tab_content {
 	font-weight: 700;
 	font-style: normal;
 }
-
 
 @media only screen and (max-width: 767px) {
 	.main_color .tabcontainer .tab {
