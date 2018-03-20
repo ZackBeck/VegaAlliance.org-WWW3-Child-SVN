@@ -646,6 +646,7 @@ div.inner_sidebar nav.widget.widget_nav_menu ul.nested_nav li.page_item,
 
 .widget li {
     padding: 5px 0;
+	text-align: left;
 }
 
 aside.sidebar.sidebar_left div.inner_sidebar nav.widget.widget_nav_menu ul.nested_nav li.page_item.current_page_item {
@@ -688,7 +689,7 @@ div.inner_sidebar nav.widget.widget_nav_menu ul.nested_nav li.page_item a,
 }
 .widget_nav_menu ul:first-child>.current-menu-item>a,
 .widget_nav_menu ul:first-child>.current_page_item>a {
-		padding: 12px 12px 12px 0px;
+		padding: 12px 10px 0 12px;
 		margin: 0px 20px 0px 0px;
 }
 
@@ -744,12 +745,18 @@ aside.sidebar div.inner_sidebar.extralight-border section div aside#advanced_sid
 	text-decoration: underline !important;
 }
 
+.sidebar .widget_nav_menu ul:first-child>.current-menu-item, 
+.sidebar .widget_nav_menu ul:first-child>.current_page_item {
+	margin-top: 4px;
+	margin-bottom: 5px;
+}
+
 div#wrap_all header#header {
     padding: 9px 0 20px;
     border-bottom: 10px solid rgba(230, 230, 223, .5);
     position: relative;
     background: #e6e6df url("/wp-content/themes/enfold-child/_custom/vega-themefiles/header-mesh.png");
-    background-image: url("/wp-content/themes/enfold-child/_custom/vega-themefiles/header-mesh.png"), url("/wp-content/themes/enfold-child/_custom/vega-themefiles/header-bg.jpg")    !important;
+    background-image: url("/wp-content/themes/enfold-child/_custom/vega-themefiles/header-mesh.png"), url("/wp-content/themes/enfold-child/_custom/vega-themefiles/header-bg.jpg") !important;
     background-repeat: repeat, no-repeat;
     background-position: 0 0;
     background-size: auto, 100% 100%;
